@@ -31,12 +31,9 @@ class StorageService {
                         }
                                                     
                         let firestoreUserId = Ref.FIRESTORE_DOCUMENT_USERID(userId: userId)
-//                        let userInfor = ["username": self.username, "email": self.email, "profileImageUrl": metaImageUrl]
+
                         let user = User.init(uid: userId, email: email, profileImageUrl: metaImageUrl, username: username, bio: "", keywords: [])
                         guard let dict = try? user.toDictionary() else {return}
-//
-//                        guard let decoderUser = try? User.init(fromDictionary: dict) else {return}
-//                        print(decoderUser.username)
                         
                         firestoreUserId.setData(dict) { (error) in
                             if error != nil {

@@ -32,6 +32,7 @@
 		B7000C822500821900B6B6BC /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C7C2500821900B6B6BC /* SignupView.swift */; };
 		B7000C842500826D00B6B6BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7000C832500826D00B6B6BC /* GoogleService-Info.plist */; };
 		B7000C862500852000B6B6BC /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C852500852000B6B6BC /* Modifiers.swift */; };
+		B7000C8A2501A16A00B6B6BC /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C892501A16A00B6B6BC /* SigninViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		B7000C7C2500821900B6B6BC /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		B7000C832500826D00B6B6BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B7000C852500852000B6B6BC /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		B7000C892501A16A00B6B6BC /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
 		C6A550FDBE92CCEBB4ADE8FA /* Pods_insta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				B7000C782500821500B6B6BC /* SignupViewModel.swift */,
+				B7000C892501A16A00B6B6BC /* SigninViewModel.swift */,
 				B7000C7B2500821800B6B6BC /* User.swift */,
 			);
 			path = Models;
@@ -296,6 +299,7 @@
 				B7000C4D25007F7900B6B6BC /* AppDelegate.swift in Sources */,
 				B7000C6F250081D800B6B6BC /* Signin+HeaderView.swift in Sources */,
 				B7000C7E2500821900B6B6BC /* SignupViewModel.swift in Sources */,
+				B7000C8A2501A16A00B6B6BC /* SigninViewModel.swift in Sources */,
 				B7000C7D2500821900B6B6BC /* SigninView.swift in Sources */,
 				B7000C862500852000B6B6BC /* Modifiers.swift in Sources */,
 				B7000C822500821900B6B6BC /* SignupView.swift in Sources */,
