@@ -3,19 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6282C0B8B567DDCE15F2B75F /* Pods_insta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A550FDBE92CCEBB4ADE8FA /* Pods_insta.framework */; };
 		B7000C4D25007F7900B6B6BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C4C25007F7900B6B6BC /* AppDelegate.swift */; };
 		B7000C4F25007F7900B6B6BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C4E25007F7900B6B6BC /* SceneDelegate.swift */; };
 		B7000C5125007F7900B6B6BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C5025007F7900B6B6BC /* ContentView.swift */; };
 		B7000C5325007F7D00B6B6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7000C5225007F7D00B6B6BC /* Assets.xcassets */; };
 		B7000C5625007F7D00B6B6BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7000C5525007F7D00B6B6BC /* Preview Assets.xcassets */; };
 		B7000C5925007F7D00B6B6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7000C5725007F7D00B6B6BC /* LaunchScreen.storyboard */; };
+		B7000C61250081CA00B6B6BC /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C60250081CA00B6B6BC /* AuthService.swift */; };
+		B7000C6A250081D800B6B6BC /* SigninButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C63250081D800B6B6BC /* SigninButton.swift */; };
+		B7000C6B250081D800B6B6BC /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C64250081D800B6B6BC /* PasswordTextField.swift */; };
+		B7000C6C250081D800B6B6BC /* SignupText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C65250081D800B6B6BC /* SignupText.swift */; };
+		B7000C6D250081D800B6B6BC /* UsernameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C66250081D800B6B6BC /* UsernameTextField.swift */; };
+		B7000C6E250081D800B6B6BC /* SignupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C67250081D800B6B6BC /* SignupButton.swift */; };
+		B7000C6F250081D800B6B6BC /* Signin+HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C68250081D800B6B6BC /* Signin+HeaderView.swift */; };
+		B7000C70250081D800B6B6BC /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C69250081D800B6B6BC /* EmailTextField.swift */; };
+		B7000C72250081EB00B6B6BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C71250081EB00B6B6BC /* Constants.swift */; };
+		B7000C74250081F400B6B6BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C73250081F400B6B6BC /* Extensions.swift */; };
+		B7000C76250081FE00B6B6BC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C75250081FE00B6B6BC /* ImagePicker.swift */; };
+		B7000C7D2500821900B6B6BC /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C772500821400B6B6BC /* SigninView.swift */; };
+		B7000C7E2500821900B6B6BC /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C782500821500B6B6BC /* SignupViewModel.swift */; };
+		B7000C802500821900B6B6BC /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C7A2500821700B6B6BC /* StorageService.swift */; };
+		B7000C812500821900B6B6BC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C7B2500821800B6B6BC /* User.swift */; };
+		B7000C822500821900B6B6BC /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C7C2500821900B6B6BC /* SignupView.swift */; };
+		B7000C842500826D00B6B6BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7000C832500826D00B6B6BC /* GoogleService-Info.plist */; };
+		B7000C862500852000B6B6BC /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7000C852500852000B6B6BC /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E84ECE1CBD51514C603E168 /* Pods-insta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta.release.xcconfig"; path = "Target Support Files/Pods-insta/Pods-insta.release.xcconfig"; sourceTree = "<group>"; };
+		AA9BC2E6727DC9C38CFE3083 /* Pods-insta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insta.debug.xcconfig"; path = "Target Support Files/Pods-insta/Pods-insta.debug.xcconfig"; sourceTree = "<group>"; };
 		B7000C4925007F7800B6B6BC /* insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7000C4C25007F7900B6B6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7000C4E25007F7900B6B6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,25 @@
 		B7000C5525007F7D00B6B6BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7000C5825007F7D00B6B6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7000C5A25007F7D00B6B6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7000C60250081CA00B6B6BC /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B7000C63250081D800B6B6BC /* SigninButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninButton.swift; sourceTree = "<group>"; };
+		B7000C64250081D800B6B6BC /* PasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		B7000C65250081D800B6B6BC /* SignupText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupText.swift; sourceTree = "<group>"; };
+		B7000C66250081D800B6B6BC /* UsernameTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameTextField.swift; sourceTree = "<group>"; };
+		B7000C67250081D800B6B6BC /* SignupButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupButton.swift; sourceTree = "<group>"; };
+		B7000C68250081D800B6B6BC /* Signin+HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Signin+HeaderView.swift"; sourceTree = "<group>"; };
+		B7000C69250081D800B6B6BC /* EmailTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		B7000C71250081EB00B6B6BC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B7000C73250081F400B6B6BC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B7000C75250081FE00B6B6BC /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B7000C772500821400B6B6BC /* SigninView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		B7000C782500821500B6B6BC /* SignupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		B7000C7A2500821700B6B6BC /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		B7000C7B2500821800B6B6BC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B7000C7C2500821900B6B6BC /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		B7000C832500826D00B6B6BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7000C852500852000B6B6BC /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		C6A550FDBE92CCEBB4ADE8FA /* Pods_insta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6282C0B8B567DDCE15F2B75F /* Pods_insta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8997D3E32642FF6FB061019A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA9BC2E6727DC9C38CFE3083 /* Pods-insta.debug.xcconfig */,
+				6E84ECE1CBD51514C603E168 /* Pods-insta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A35CBB1108D77145A097C3C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A550FDBE92CCEBB4ADE8FA /* Pods_insta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7000C4025007F7800B6B6BC = {
 			isa = PBXGroup;
 			children = (
 				B7000C4B25007F7900B6B6BC /* insta */,
 				B7000C4A25007F7800B6B6BC /* Products */,
+				8997D3E32642FF6FB061019A /* Pods */,
+				A35CBB1108D77145A097C3C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +116,21 @@
 		B7000C4B25007F7900B6B6BC /* insta */ = {
 			isa = PBXGroup;
 			children = (
+				B7000C882500862800B6B6BC /* Views */,
+				B7000C872500861B00B6B6BC /* Models */,
 				B7000C4C25007F7900B6B6BC /* AppDelegate.swift */,
+				B7000C60250081CA00B6B6BC /* AuthService.swift */,
+				B7000C75250081FE00B6B6BC /* ImagePicker.swift */,
+				B7000C73250081F400B6B6BC /* Extensions.swift */,
+				B7000C71250081EB00B6B6BC /* Constants.swift */,
 				B7000C4E25007F7900B6B6BC /* SceneDelegate.swift */,
 				B7000C5025007F7900B6B6BC /* ContentView.swift */,
+				B7000C852500852000B6B6BC /* Modifiers.swift */,
+				B7000C62250081D800B6B6BC /* Components */,
 				B7000C5225007F7D00B6B6BC /* Assets.xcassets */,
 				B7000C5725007F7D00B6B6BC /* LaunchScreen.storyboard */,
 				B7000C5A25007F7D00B6B6BC /* Info.plist */,
+				B7000C832500826D00B6B6BC /* GoogleService-Info.plist */,
 				B7000C5425007F7D00B6B6BC /* Preview Content */,
 			);
 			path = insta;
@@ -75,6 +144,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B7000C62250081D800B6B6BC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B7000C7A2500821700B6B6BC /* StorageService.swift */,
+				B7000C63250081D800B6B6BC /* SigninButton.swift */,
+				B7000C64250081D800B6B6BC /* PasswordTextField.swift */,
+				B7000C65250081D800B6B6BC /* SignupText.swift */,
+				B7000C66250081D800B6B6BC /* UsernameTextField.swift */,
+				B7000C67250081D800B6B6BC /* SignupButton.swift */,
+				B7000C68250081D800B6B6BC /* Signin+HeaderView.swift */,
+				B7000C69250081D800B6B6BC /* EmailTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B7000C872500861B00B6B6BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7000C782500821500B6B6BC /* SignupViewModel.swift */,
+				B7000C7B2500821800B6B6BC /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7000C882500862800B6B6BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7000C772500821400B6B6BC /* SigninView.swift */,
+				B7000C7C2500821900B6B6BC /* SignupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7000C5D25007F7D00B6B6BC /* Build configuration list for PBXNativeTarget "insta" */;
 			buildPhases = (
+				F7F82C8917C20C9E9B7A1662 /* [CP] Check Pods Manifest.lock */,
 				B7000C4525007F7800B6B6BC /* Sources */,
 				B7000C4625007F7800B6B6BC /* Frameworks */,
 				B7000C4725007F7800B6B6BC /* Resources */,
+				24399369178401543FB62CA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,11 +239,54 @@
 			files = (
 				B7000C5925007F7D00B6B6BC /* LaunchScreen.storyboard in Resources */,
 				B7000C5625007F7D00B6B6BC /* Preview Assets.xcassets in Resources */,
+				B7000C842500826D00B6B6BC /* GoogleService-Info.plist in Resources */,
 				B7000C5325007F7D00B6B6BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24399369178401543FB62CA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-insta/Pods-insta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-insta/Pods-insta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-insta/Pods-insta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F82C8917C20C9E9B7A1662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-insta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B7000C4525007F7800B6B6BC /* Sources */ = {
@@ -147,8 +294,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7000C4D25007F7900B6B6BC /* AppDelegate.swift in Sources */,
+				B7000C6F250081D800B6B6BC /* Signin+HeaderView.swift in Sources */,
+				B7000C7E2500821900B6B6BC /* SignupViewModel.swift in Sources */,
+				B7000C7D2500821900B6B6BC /* SigninView.swift in Sources */,
+				B7000C862500852000B6B6BC /* Modifiers.swift in Sources */,
+				B7000C822500821900B6B6BC /* SignupView.swift in Sources */,
+				B7000C70250081D800B6B6BC /* EmailTextField.swift in Sources */,
+				B7000C76250081FE00B6B6BC /* ImagePicker.swift in Sources */,
 				B7000C4F25007F7900B6B6BC /* SceneDelegate.swift in Sources */,
+				B7000C802500821900B6B6BC /* StorageService.swift in Sources */,
+				B7000C6B250081D800B6B6BC /* PasswordTextField.swift in Sources */,
+				B7000C6D250081D800B6B6BC /* UsernameTextField.swift in Sources */,
 				B7000C5125007F7900B6B6BC /* ContentView.swift in Sources */,
+				B7000C6C250081D800B6B6BC /* SignupText.swift in Sources */,
+				B7000C74250081F400B6B6BC /* Extensions.swift in Sources */,
+				B7000C6A250081D800B6B6BC /* SigninButton.swift in Sources */,
+				B7000C6E250081D800B6B6BC /* SignupButton.swift in Sources */,
+				B7000C61250081CA00B6B6BC /* AuthService.swift in Sources */,
+				B7000C72250081EB00B6B6BC /* Constants.swift in Sources */,
+				B7000C812500821900B6B6BC /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +446,7 @@
 		};
 		B7000C5E25007F7D00B6B6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA9BC2E6727DC9C38CFE3083 /* Pods-insta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +467,7 @@
 		};
 		B7000C5F25007F7D00B6B6BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E84ECE1CBD51514C603E168 /* Pods-insta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
